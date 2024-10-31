@@ -1,0 +1,112 @@
+{% extends "stock/base.html"%}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>Registro de Bebé</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <hr>
+    <div class="alert alert-success text-center">
+        Gracias por confiar en nosotros. La consulta será programada para el 
+        <strong>{{ fecha_reserva }} a las {{ hora_reserva }}</strong>.
+    </div>
+
+    <div style="width: 50%; margin:auto;">
+        <!-- Aseguramos que el formulario maneje archivos (para la imagen del bebé) -->
+        <form method="post" action="" enctype="multipart/form-data">
+            {% csrf_token %}
+            <!-- Renderizamos el formulario completo con crispy, agregando separación entre campos -->
+            <div class="form-group mb-4">
+                {{ form.nombre|as_crispy_field }}
+            </div>
+            <div class="form-group mb-4">
+                {{ form.fecha_nacimiento|as_crispy_field }}
+            </div>
+            <!-- Sexo y tipo de sangre en dos columnas -->
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    {{ form.sexo|as_crispy_field }}
+                </div>
+                <div class="col-md-6 mb-4">
+                    {{ form.tipo_sangre|as_crispy_field }}
+                </div>
+            </div>
+            <div class="form-group mb-4">
+                {{ form.peso|as_crispy_field }}
+            </div>
+            <div class="form-group mb-4">
+                {{ form.foto|as_crispy_field }}
+            </div>
+            <div class="form-group mb-4">
+                {{ form.datos_adicionales|as_crispy_field }}
+            </div>
+
+            <!-- Botón de registro -->
+            <div class="col text-center mt-4">
+                <button class="btn btn-success regular-button">Registrar</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+
+    <!-- Espacio extra debajo del formulario con fondo -->
+    <section class="background-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Servicio (producto) en una columna -->
+                <div class="col-md-6 text-center">
+                    <h4 class="text-center" style="color: black;">El bebé será atendido por el siguiente servicio:</h4>
+                    {% if request.session.carro.items %}
+                        {% for key, value in request.session.carro.items %}
+                            <div class="d-inline-block m-3">
+                                <img src="{{ value.imagen }}" alt="Producto" style="width: 300px; height: 300px; object-fit: cover;">
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <div class="alert alert-danger text-center">
+                            Sin productos en el carrito
+                        </div>
+                    {% endif %}
+                </div>
+
+                <!-- Información del doctor en la otra columna -->
+                <div class="col-md-6 text-center">
+                    <h4 style="color: black;">El doctor a atenderte será:</h4>
+                    {% if doctor.foto_perfil %}
+                        <img src="{{ doctor.foto_perfil.url }}" alt="Foto del doctor" style="width: 150px; height: 150px; object-fit: cover;">
+                    {% else %}
+                        <img src="{% static 'path/to/default_image.jpg' %}" alt="Foto no disponible" style="width: 150px; height: 150px; object-fit: cover;">
+                    {% endif %}
+                    <p>{{ doctor.nombre }} {{ doctor.apellido }}</p>
+                    <p>CUI: {{ doctor.dpi }}</p>
+                    <p>Teléfono: {{ doctor.telefono }}</p>
+                    <p>Correo electrónico: {{ doctor.user.email }}</p>
+                    <p>Especialidad: {{ doctor.especialidad }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .background-section {
+            background-image: url("{% static 'stock/img/banner/bannerc.svg' %}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 10px 0;
+        }
+    </style>
+
+{% endblock %}

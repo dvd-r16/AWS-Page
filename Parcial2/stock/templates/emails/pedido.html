@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body class="Bodyss">
+
+    <table style="max-width: 1000px; padding:10px; margin:0 auto; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 0;">
+                <img style="padding: 0; display:block" src="https://i.postimg.cc/m2rYtK9T/Email1.jpg" width="100%" class="img-fluid" alt="Responsive image">
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: #ffffff">
+                <div style="color: #000000; margin:4% 10% 2%; text-align: justify; font-family: sans-serif">
+                    <h2 style="color: #2a7379; margin: 0 0 7px">Gracias por tu asignación</h2>
+                    <p class="lead">
+                        Hola {{ nombreusuario }},<br/>
+                        Gracias por confiar en nosotros. Se ha asignado la consulta para el bebé <strong>{{ reserva.nombre_bebe }}</strong>.<br/>
+                        Nacido el día <strong>{{ reserva.fecha_nacimiento }}</strong>.<br/>
+                        La consulta está programada para el <strong>{{ reserva.fecha_reserva }}</strong> a las <strong>{{ reserva.hora_reserva }}</strong>.<br/>
+                        Su consulta será sobre <strong>{{ reserva.producto.nombre }}</strong>.<br/>
+                        <br/>
+                        Lo esperamos en nuestras clínicas.<br/>
+                        Atentamente,<br/>
+                        <strong>Sonrisas de la Vida</strong><br/>
+                        <br/>
+                        <strong>No. de Factura: </strong>{{ pedido.id }}<br/>
+                        <br/>
+                        <strong>Servicios solicitados:</strong><br/>
+                        {% for linea in lineas_pedido %}
+                            {{ linea.producto.nombre }} - {{ linea.cantidad }}<br/>
+                        {% endfor %}
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0;">
+                <img style="padding: 0; display:block" src="https://i.postimg.cc/v8h78GcP/Email2.jpg" width="100%" class="img-fluid" alt="Responsive image">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

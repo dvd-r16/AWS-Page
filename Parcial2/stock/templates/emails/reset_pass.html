@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Bloqueada</title>
+
+    <!-- Bootstrap 5.2.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body class="Bodyss">
+
+    <!-- Tabla central con las imágenes arriba y abajo -->
+    <table style="max-width: 1000px; padding:10px; margin:0 auto; border-collapse: collapse;">
+        <!-- Imagen superior -->
+        <tr>
+            <td style="padding: 0;">
+                <img style="padding: 0; display:block" src="https://i.postimg.cc/m2rYtK9T/Email1.jpg" width="100%" class="img-fluid" alt="Responsive image">
+            </td>
+        </tr>
+        <!-- Contenido del correo -->
+        <tr>
+            <td style="background-color: #ffffff">
+                <div style="color: #000000; margin:4% 10% 2%; text-align: justify; font-family: sans-serif">
+                    <h2 style="color: #2a7379; margin: 0 0 7px">Cuenta Bloqueada</h2>
+                    <p class="lead">
+                        Hola {{nombreusuario}},<br/>
+                        Hemos detectado anomalías en tu cuenta, como múltiples intentos fallidos de acceso. Por motivos de seguridad, hemos bloqueado temporalmente el acceso a tu cuenta en la Clínica Sonrisas de Vida.<br/><br/>
+                        Para iniciar el proceso de recuperación y desbloqueo de tu cuenta, por favor contacta a nuestro equipo de soporte al siguiente número:<br/>
+                        <strong>+502 1234-5678</strong><br/><br/>
+                        Tu seguridad es nuestra prioridad, y trabajamos constantemente para proteger tu información.<br/><br/>
+                        Atentamente,<br/>
+                        <strong>Sonrisas de la Vida</strong><br/>
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <!-- Imagen inferior -->
+        <tr>
+            <td style="padding: 0;">
+                <img style="padding: 0; display:block" src="https://i.postimg.cc/v8h78GcP/Email2.jpg" width="100%" class="img-fluid" alt="Responsive image">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

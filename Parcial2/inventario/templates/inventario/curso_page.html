@@ -1,0 +1,127 @@
+{% extends "stock/base.html"%}
+
+{% load static %}
+{% block content %}
+
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>Detalles de la Consulta</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <br/>
+
+    <!-- Información del Bebé -->
+    <div class="container">
+        <div class="card mb-4" style="border-radius: .5rem; background-color: #000000; color: white;">
+            <div class="row g-0">
+                <div class="col-md-4 gradient-custom text-center"
+                     style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                    {% if reserva.foto %}
+                        <img src="{{ reserva.foto.url }}" alt="Bebé" class="img-fluid my-5" style="width: 140px;">
+                    {% else %}
+                        <img src="/media/default-baby.svg" alt="Bebé" class="img-fluid my-5" style="width: 140px;">
+                    {% endif %}
+                    <h5>{{ reserva.nombre_bebe }}</h5>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body p-4">
+                        <h6>Detalles de la Consulta</h6>
+                        <hr class="mt-0 mb-4" style="border-color: #ffffff;">
+                        <div class="row pt-1">
+                            <div class="col-6 mb-3">
+                                <h6>Nombre del Bebé</h6>
+                                <p class="text-muted">{{ reserva.nombre_bebe }}</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <h6>Fecha de Nacimiento</h6>
+                                <p class="text-muted">{{ reserva.fecha_nacimiento }}</p>
+                            </div>
+                        </div>
+                        <div class="row pt-1">
+                            <div class="col-6 mb-3">
+                                <h6>Fecha de Reserva</h6>
+                                <p class="text-muted">{{ reserva.fecha_reserva }}</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <h6>Hora de Reserva</h6>
+                                <p class="text-muted">{{ reserva.hora_reserva }}</p>
+                            </div>
+                        </div>
+                        <div class="row pt-1">
+                            <div class="col-6 mb-3">
+                                <h6>Datos Adicionales</h6>
+                                <p class="text-muted">{{ reserva.datos_adicionales|default:"No disponible" }}</p>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <h6>Consulta</h6>
+                                <p class="text-muted">{{ reserva.producto.nombre }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Información Adicional: vista diferente para el profesor y el usuario -->
+    <div class="container mt-4">
+        {% if es_profesor %}
+            <!-- Sección para el doctor (profesor) -->
+            <h3 class="mb-4 text-center" style="color: black;">Agregar Información de la Consulta</h3>
+
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <!-- Campo para agregar comentarios -->
+                <div class="form-group mb-4">
+                    <label for="notas_profesor" style="color: black;">Comentarios del Doctor:</label>
+                    <textarea class="form-control" id="notas_profesor" name="notas_profesor" rows="5">{{ reserva.notas_profesor|default:"" }}</textarea>
+                </div>
+                <!-- Campo para subir archivos (exámenes, imágenes, etc.) -->
+                <div class="form-group mb-4">
+                    <label for="archivo" style="color: black;">Subir Archivos (Exámenes, Imágenes):</label>
+                    <input type="file" class="form-control" id="archivo" name="archivo">
+                </div>
+                <!-- Botón para publicar la información -->
+                <div class="col text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Publicar Información</button>
+                </div>
+            </form>
+
+        {% elif es_cliente %}
+            <!-- Sección para el usuario (madre/padre del bebé) -->
+            <h3 class="mb-4 text-center" style="color: black;">Información del Doctor</h3>
+            {% if reserva.notas_profesor %}
+                <!-- Mostrar los comentarios del doctor -->
+                <div class="alert alert-info">
+                    <h6><strong>Comentarios del Doctor:</strong></h6>
+                    <p>{{ reserva.notas_profesor }}</p>
+                </div>
+            {% else %}
+                <div class="alert alert-warning text-center">
+                    No hay comentarios del doctor disponibles.
+                </div>
+            {% endif %}
+            
+            <!-- Mostrar archivos si el doctor ha subido alguno -->
+            {% if reserva.archivo %}
+                <div class="alert alert-info">
+                    <h6><strong>Archivos Subidos:</strong></h6>
+                    <p><strong>Nombre del archivo:</strong> {{ reserva.archivo.name }}</p> <!-- Mostrar el nombre del archivo -->
+                    <a href="{{ reserva.archivo.url }}" download>Descargar Archivo</a>
+                </div>
+            {% else %}
+                <div class="alert alert-warning text-center">
+                    No hay archivos subidos por el doctor.
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+
+{% endblock %}

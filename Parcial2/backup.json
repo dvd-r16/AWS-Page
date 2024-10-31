@@ -1,0 +1,3163 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-09-23T15:55:10.709Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "dvd-r016",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-09-23T16:02:06.934Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "dvd-r016",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-09-23T16:28:20.468Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "dvdr-016",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-09-23T16:28:54.282Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "Luis_Pedro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-09-23T16:29:18.436Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "Luis_Pedro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-09-23T16:29:22.833Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "Luis_Pedro",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-09-23T16:43:11.209Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "l_rodas",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-09-23T16:56:34.175Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "dvd-r017",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-09-23T16:56:38.042Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "dvd-r016",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-09-23T17:07:51.257Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "10",
+        "object_repr": "dvd-r017",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-09-23T17:07:54.729Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "dvd-r016",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-09-24T15:11:44.163Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Diseño Estructural 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-09-24T16:05:31.414Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Diseño Estructural",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Descuento\", \"Descripcion\", \"Imagen\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-09-24T16:06:22.107Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Diseño Estructural",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descripcion\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-09-24T16:08:59.810Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Topografía",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-09-24T16:10:10.238Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Pavimentos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-09-24T16:10:13.426Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Pavimentos",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-09-24T16:11:11.066Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Bioquímica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-09-24T16:12:04.680Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Fisioquímica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-09-24T16:12:49.667Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Calidad del Agua",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-09-24T16:14:02.151Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Control de Producción",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-09-24T16:14:53.928Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Diseño Industrial",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-09-24T16:15:40.993Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Control de Calidad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-09-24T16:19:16.824Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Máquinas Hidráulicas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-09-24T16:19:59.569Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Plantas de Vapor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-09-24T16:22:00.537Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Resistencia de Materiales",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-09-24T16:28:13.999Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Electrónica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-09-24T16:28:57.379Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Comunicaciones",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-09-24T16:29:30.546Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Robótica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-09-24T16:30:26.470Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Líneas de Transmisión",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-09-24T16:31:11.517Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Alta Tensión",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-09-24T16:31:54.147Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Subestaciones",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-09-24T16:32:44.023Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Estructuras de Datos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-09-24T16:33:26.806Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Sistemas Operativos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-09-24T16:34:38.118Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Modelación y Simulación",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-09-24T16:36:35.881Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Diseño Industrial",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Disponibilidad\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-09-24T16:36:55.556Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Diseño Estructural",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-09-24T16:36:56.697Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Diseño Estructural",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-09-24T16:37:10.537Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Modelación y Simulación",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-09-24T16:37:16.277Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Sistemas Operativos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-09-24T16:37:23.897Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Estructuras de Datos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-09-24T16:37:29.146Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Subestaciones",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-09-24T16:37:34.837Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Alta Tensión",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-09-24T16:37:40.630Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Líneas de Transmisión",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-09-24T16:37:46.797Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Robótica",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-09-24T16:37:53.046Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Comunicaciones",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-09-24T16:38:00.407Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Electrónica",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-09-24T16:38:06.747Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Resistencia de Materiales",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-09-24T16:38:12.057Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Plantas de Vapor",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-09-24T16:38:16.758Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Plantas de Vapor",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-09-24T16:38:28.487Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Máquinas Hidráulicas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-09-24T16:38:36.889Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Control de Calidad",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-09-24T16:38:42.737Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Diseño Industrial",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-09-24T16:38:48.750Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Control de Producción",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-09-24T16:38:58.598Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Calidad del Agua",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-09-24T16:39:03.437Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Fisioquímica",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-09-24T16:39:08.403Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Bioquímica",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-09-24T16:39:13.767Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Pavimentos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-09-24T16:39:19.416Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Topografía",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-09-24T16:39:41.047Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Diseño Estructural",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-09-24T16:39:54.797Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Comunicaciones",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-09-24T16:40:13.846Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Control de Producción",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-09-24T16:40:25.547Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Estructuras de Datos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-09-24T21:09:33.714Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "dvd-r016",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-09-24T21:09:57.519Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "Luis_Pedro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-09-24T21:10:09.586Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "Luis_Pedro",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-09-24T21:12:23.122Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "13",
+        "object_repr": "dvd-r",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-09-25T16:50:29.107Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "14",
+        "object_repr": "dvd-r",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-10-02T20:36:09.622Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Comunicaciones",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cantidad\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-10-02T20:36:52.827Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "compra",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-10-02T20:37:34.744Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Comunicaciones",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-10-03T01:44:56.200Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Comunicaciones",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descuento\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-10-05T19:44:55.988Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "compra",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Entregado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-10-05T20:31:01.165Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Luis Pedro - DPI: 3711111370201",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-10-05T23:04:05.318Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "David Rodas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Apellido\", \"Dpi\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-10-05T23:05:20.670Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "16",
+        "object_repr": "dsteven",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-10-05T23:05:44.403Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "David Steven",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-10-05T23:11:49.021Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "David Rodas",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-10-05T23:55:18.330Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Robótica",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Catedratico\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-10-06T00:25:16.639Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Sistemas Operativos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Catedratico\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-10-06T00:25:21.838Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Modelación y Simulación",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add articulo",
+        "content_type": 7,
+        "codename": "add_articulos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change articulo",
+        "content_type": 7,
+        "codename": "change_articulos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete articulo",
+        "content_type": 7,
+        "codename": "delete_articulos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view articulo",
+        "content_type": 7,
+        "codename": "view_articulos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add pedido",
+        "content_type": 8,
+        "codename": "add_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change pedido",
+        "content_type": 8,
+        "codename": "change_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete pedido",
+        "content_type": 8,
+        "codename": "delete_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view pedido",
+        "content_type": 8,
+        "codename": "view_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Linea pedido",
+        "content_type": 9,
+        "codename": "add_lineapedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Linea pedido",
+        "content_type": 9,
+        "codename": "change_lineapedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Linea pedido",
+        "content_type": 9,
+        "codename": "delete_lineapedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Linea pedido",
+        "content_type": 9,
+        "codename": "view_lineapedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Cliente",
+        "content_type": 10,
+        "codename": "add_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Cliente",
+        "content_type": 10,
+        "codename": "change_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Cliente",
+        "content_type": 10,
+        "codename": "delete_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Cliente",
+        "content_type": 10,
+        "codename": "view_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add access attempt",
+        "content_type": 11,
+        "codename": "add_accessattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change access attempt",
+        "content_type": 11,
+        "codename": "change_accessattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete access attempt",
+        "content_type": 11,
+        "codename": "delete_accessattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view access attempt",
+        "content_type": 11,
+        "codename": "view_accessattempt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add access log",
+        "content_type": 12,
+        "codename": "add_accesslog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change access log",
+        "content_type": 12,
+        "codename": "change_accesslog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete access log",
+        "content_type": 12,
+        "codename": "delete_accesslog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view access log",
+        "content_type": 12,
+        "codename": "view_accesslog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add access failure",
+        "content_type": 13,
+        "codename": "add_accessfailurelog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change access failure",
+        "content_type": 13,
+        "codename": "change_accessfailurelog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete access failure",
+        "content_type": 13,
+        "codename": "delete_accessfailurelog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view access failure",
+        "content_type": 13,
+        "codename": "view_accessfailurelog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add usuarios",
+        "content_type": 14,
+        "codename": "add_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change usuarios",
+        "content_type": 14,
+        "codename": "change_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete usuarios",
+        "content_type": 14,
+        "codename": "delete_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view usuarios",
+        "content_type": 14,
+        "codename": "view_usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add Catedrático",
+        "content_type": 15,
+        "codename": "add_profesor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change Catedrático",
+        "content_type": 15,
+        "codename": "change_profesor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete Catedrático",
+        "content_type": 15,
+        "codename": "delete_profesor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view Catedrático",
+        "content_type": 15,
+        "codename": "view_profesor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add inscripcion",
+        "content_type": 16,
+        "codename": "add_inscripcion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change inscripcion",
+        "content_type": 16,
+        "codename": "change_inscripcion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete inscripcion",
+        "content_type": 16,
+        "codename": "delete_inscripcion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view inscripcion",
+        "content_type": 16,
+        "codename": "view_inscripcion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add nota",
+        "content_type": 17,
+        "codename": "add_nota"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change nota",
+        "content_type": 17,
+        "codename": "change_nota"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete nota",
+        "content_type": 17,
+        "codename": "delete_nota"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view nota",
+        "content_type": 17,
+        "codename": "view_nota"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add curso",
+        "content_type": 18,
+        "codename": "add_curso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change curso",
+        "content_type": 18,
+        "codename": "change_curso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete curso",
+        "content_type": 18,
+        "codename": "delete_curso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view curso",
+        "content_type": 18,
+        "codename": "view_curso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add estudiante",
+        "content_type": 19,
+        "codename": "add_estudiante"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change estudiante",
+        "content_type": 19,
+        "codename": "change_estudiante"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete estudiante",
+        "content_type": 19,
+        "codename": "delete_estudiante"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view estudiante",
+        "content_type": 19,
+        "codename": "view_estudiante"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$q5HKVmcrMbZkEyBFXWG44J$O1lKu5Jc57dEMNEJjsptFkY6qPWxgcpagkEi5vP6dG4=",
+        "last_login": "2024-10-06T00:25:06.255Z",
+        "is_superuser": true,
+        "username": "dvdr",
+        "first_name": "",
+        "last_name": "",
+        "email": "dvdara16@gmai.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-21T05:48:36.748Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$KmCZRpekI9yhVcvaNhyBre$K6wixGaGNBMAtvNkquT2B+h8TPhVgj3pwAf/twjxPk0=",
+        "last_login": "2024-10-05T23:55:49.620Z",
+        "is_superuser": false,
+        "username": "dvd-r",
+        "first_name": "David",
+        "last_name": "Rodas",
+        "email": "dvdara16@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-25T16:51:40.129Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$VYqudeGW03MnIsfzo5vgL0$dOnQSc0wH2rPzUIokVmBPcs1wVirOc9EWIyE0jvYz6I=",
+        "last_login": "2024-10-06T00:26:00.036Z",
+        "is_superuser": false,
+        "username": "dsteven",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-05T23:05:20.202Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "inventario",
+        "model": "articulos"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "pedido"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "lineapedido"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "usuarios",
+        "model": "usuarios"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "axes",
+        "model": "accessattempt"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "axes",
+        "model": "accesslog"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "axes",
+        "model": "accessfailurelog"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "autenticacion",
+        "model": "usuarios"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "usuarios",
+        "model": "profesor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "inventario",
+        "model": "inscripcion"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "inventario",
+        "model": "nota"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "inventario",
+        "model": "curso"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "inventario",
+        "model": "estudiante"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "enzvlp4m9vpiadlzmion5grn3n2jj4mk",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyGAIODRe7-BLLuLVA1NSnsy_rtt0oMe5jLvzbxFgnWpae08p5HEVWhx-u0y4JPbDugB7T5JnNoyj1nuijxol8NE_Lod7t9BhV63NUaflSFgG-OZvPWoykVTjN4HYHRodOBsrHcuWEWsbQZdtlgqJhsUny_lJjgy:1ssl5a:vXd6rdNuUqhzY49XiBQxeFNggno-x5_Yd6PzQJhOhkg",
+        "expire_date": "2024-10-07T15:35:02.528Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "v6ig65w4r7dsd4pe4el5w3sjb8kkwj7e",
+    "fields": {
+        "session_data": "eyJjYXJybyI6e319:1sskfN:JL7ZJT9-i1pbTWyYEcwZlD-hg938G-AWQz5eGkHTY8Y",
+        "expire_date": "2024-10-07T15:07:57.126Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "whnh7onuclgldol0xejscir39cb49v3n",
+    "fields": {
+        "session_data": ".eJxVjDEOgzAQBP9ydWTZ2GcDZXregO58JpBEWDJQIf6eINHQ7szsDpFKydDuxwN62tax35ZU-kmgBePhNjLFT5pPIm-aX1nFPK9lYnUq6qKL6rKk7_NybwcjLeO_1sFjhRiaiKxJhJ22mobBWR_QIOkafc0sJqA13qBtHCZBkwbfIFcOjh94Hzqe:1sxF60:pBJqf39dTClr78bjXfvTCMXcjwVz2W49pYaK1miw6dg",
+        "expire_date": "2024-10-20T00:26:00.068Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 1,
+    "fields": {
+        "nombre": "Diseño Estructural",
+        "categoria": "Ingeniería Civil",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 450.0,
+        "descripcion": "En este curso, los estudiantes aprenderán los principios básicos del diseño estructural, analizando y planificando estructuras seguras y eficientes",
+        "imagen": "servicios/Diseño_Estructural.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T15:11:44.157Z",
+        "update": "2024-09-24T15:11:44.157Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 2,
+    "fields": {
+        "nombre": "Topografía",
+        "categoria": "Ingeniería Civil",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Los estudiantes aprenderán las técnicas fundamentales para medir, representar y analizar terrenos, aplicando métodos en levantamientos topográficos",
+        "imagen": "servicios/Topografía.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:08:59.808Z",
+        "update": "2024-09-24T16:08:59.808Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 3,
+    "fields": {
+        "nombre": "Pavimentos",
+        "categoria": "Ingeniería Civil",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "En este curso, se aprenden los principios básicos del diseño, construcción y mantenimiento de pavimentos",
+        "imagen": "servicios/Pavimentos.png",
+        "cantidad": 4,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:10:10.237Z",
+        "update": "2024-09-24T16:10:10.237Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 4,
+    "fields": {
+        "nombre": "Bioquímica",
+        "categoria": "Ingeniería Química",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Los estudiantes aprenderán los fundamentos de la química de los seres vivos y las interacciones moleculares esenciales para la vida",
+        "imagen": "servicios/Bioquímica.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:11:11.064Z",
+        "update": "2024-09-24T16:11:11.064Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 5,
+    "fields": {
+        "nombre": "Fisioquímica",
+        "categoria": "Ingeniería Química",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian las leyes físicas que rigen los sistemas químicos y sus transformaciones energéticas.",
+        "imagen": "servicios/Fisicoquímica.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:12:04.678Z",
+        "update": "2024-09-24T16:12:04.678Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 6,
+    "fields": {
+        "nombre": "Calidad del Agua",
+        "categoria": "Ingeniería Química",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se analizan los parámetros y técnicas para evaluar y mantener la calidad del agua en diversos entornos.",
+        "imagen": "servicios/Calidad_del_Agua.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:12:49.666Z",
+        "update": "2024-09-24T16:12:49.666Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 7,
+    "fields": {
+        "nombre": "Control de Producción",
+        "categoria": "Ingeniería Industrial",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 450.0,
+        "descripcion": "Se enseñan técnicas para planificar, gestionar y optimizar los procesos productivos en distintas industrias",
+        "imagen": "servicios/Control_de_Producción.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:14:02.150Z",
+        "update": "2024-09-24T16:14:02.150Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 8,
+    "fields": {
+        "nombre": "Diseño Industrial",
+        "categoria": "Ingeniería Industrial",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se aprenden métodos para crear productos funcionales, estéticos y eficientes, centrados en la innovación y el usuario",
+        "imagen": "servicios/Diseño_Industrial.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:14:53.926Z",
+        "update": "2024-09-24T16:14:53.926Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 9,
+    "fields": {
+        "nombre": "Control de Calidad",
+        "categoria": "Ingeniería Industrial",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian métodos y herramientas para garantizar productos que cumplan con los estándares de calidad establecidos",
+        "imagen": "servicios/Control_de_calidad.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:15:40.991Z",
+        "update": "2024-09-24T16:15:40.991Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 10,
+    "fields": {
+        "nombre": "Máquinas Hidráulicas",
+        "categoria": "Ingeniería Mecánica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se exploran los principios y funcionamiento de máquinas que utilizan fluidos para transmitir energía.",
+        "imagen": "servicios/Máquinas_Hidráulicas.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:19:16.822Z",
+        "update": "2024-09-24T16:19:16.822Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 11,
+    "fields": {
+        "nombre": "Plantas de Vapor",
+        "categoria": "Ingeniería Mecánica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian los sistemas y componentes utilizados para la generación de energía mediante vapor",
+        "imagen": "servicios/Plantas_de_Vapor.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:19:59.567Z",
+        "update": "2024-09-24T16:19:59.567Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 12,
+    "fields": {
+        "nombre": "Resistencia de Materiales",
+        "categoria": "Ingenieria Mecánica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se analizan las propiedades mecánicas de los materiales y su comportamiento ante diversas fuerzas",
+        "imagen": "servicios/Resistencias_de_Materiales.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:22:00.536Z",
+        "update": "2024-09-24T16:22:00.536Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 13,
+    "fields": {
+        "nombre": "Electrónica",
+        "categoria": "Ingeniería Electrónica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian los componentes y circuitos electrónicos esenciales para el diseño y análisis de sistemas eléctricos",
+        "imagen": "servicios/Electrónica.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:28:13.997Z",
+        "update": "2024-09-24T16:28:13.997Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 14,
+    "fields": {
+        "nombre": "Comunicaciones",
+        "categoria": "Ingeniería Electrónica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 440.0,
+        "descripcion": "Se exploran los principios y tecnologías para la transmisión de datos y señales a través de diversos medios.",
+        "imagen": "servicios/Comunicaciones.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:28:57.378Z",
+        "update": "2024-09-24T16:28:57.378Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 15,
+    "fields": {
+        "nombre": "Robótica",
+        "categoria": "Ingeniería Electrónica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian los principios de diseño, programación y control de sistemas robóticos para diversas aplicaciones",
+        "imagen": "servicios/Robótica.png",
+        "cantidad": 4,
+        "catedratico": 2,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:29:30.545Z",
+        "update": "2024-09-24T16:29:30.545Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 16,
+    "fields": {
+        "nombre": "Líneas de Transmisión",
+        "categoria": "Ingeniería Eléctrica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se analizan los sistemas y técnicas para la transmisión eficiente de energía eléctrica a largas distancias",
+        "imagen": "servicios/Líneas_de_Transmisión.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:30:26.469Z",
+        "update": "2024-09-24T16:30:26.469Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 17,
+    "fields": {
+        "nombre": "Alta Tensión",
+        "categoria": "Ingeniería Eléctrica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian los principios y equipos utilizados para el transporte y distribución de energía en sistemas de alta tensión",
+        "imagen": "servicios/Alta_Tensión.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:31:11.516Z",
+        "update": "2024-09-24T16:31:11.516Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 18,
+    "fields": {
+        "nombre": "Subestaciones",
+        "categoria": "Ingeniería Eléctrica",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se analizan los equipos y procesos en subestaciones eléctricas para la distribución y control de energía",
+        "imagen": "servicios/Subestaciones.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:31:54.146Z",
+        "update": "2024-09-24T16:31:54.146Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 19,
+    "fields": {
+        "nombre": "Estructuras de Datos",
+        "categoria": "Ingeniería en Ciencias y Siste",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 450.0,
+        "descripcion": "Se estudian métodos para organizar y gestionar eficientemente la información en sistemas computacionales",
+        "imagen": "servicios/Estructuras_de_Datos.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:32:44.022Z",
+        "update": "2024-09-24T16:32:44.022Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 20,
+    "fields": {
+        "nombre": "Sistemas Operativos",
+        "categoria": "Ingeniería en Ciencias y Siste",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se exploran los fundamentos, funciones y gestión de recursos en los sistemas operativos",
+        "imagen": "servicios/Sistemas_Operativos.png",
+        "cantidad": 5,
+        "catedratico": 2,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:33:26.805Z",
+        "update": "2024-09-24T16:33:26.805Z"
+    }
+},
+{
+    "model": "inventario.articulos",
+    "pk": 21,
+    "fields": {
+        "nombre": "Modelación y Simulación",
+        "categoria": "Ingeniería en Ciencias y Siste",
+        "precio": 500.0,
+        "horario": "1",
+        "descuento": 500.0,
+        "descripcion": "Se estudian técnicas para representar y analizar sistemas reales mediante modelos matemáticos y simulaciones computacionales",
+        "imagen": "servicios/Modelación_y_simulación.png",
+        "cantidad": 5,
+        "catedratico": 1,
+        "disponibilidad": true,
+        "creacion": "2024-09-24T16:34:38.116Z",
+        "update": "2024-09-24T16:34:38.116Z"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 2,
+    "fields": {
+        "user": 15,
+        "entregado": true,
+        "operacion": "compra",
+        "created_at": "2024-10-02T23:49:55.381Z"
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 3,
+    "fields": {
+        "user": 15,
+        "entregado": false,
+        "operacion": "compra",
+        "created_at": "2024-10-05T23:56:13.234Z"
+    }
+},
+{
+    "model": "pedidos.lineapedido",
+    "pk": 2,
+    "fields": {
+        "user": 15,
+        "producto": 3,
+        "pedido": 2,
+        "operacion": "compra",
+        "cantidad": 1,
+        "created_at": "2024-10-02T23:49:55.391Z",
+        "entregado": false
+    }
+},
+{
+    "model": "pedidos.lineapedido",
+    "pk": 3,
+    "fields": {
+        "user": 15,
+        "producto": 15,
+        "pedido": 3,
+        "operacion": "compra",
+        "cantidad": 1,
+        "created_at": "2024-10-05T23:56:13.244Z",
+        "entregado": false
+    }
+},
+{
+    "model": "usuarios.usuarios",
+    "pk": 3,
+    "fields": {
+        "user": 15,
+        "username": "",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "cui": 3711111370101,
+        "profile_image": "",
+        "login_attempts": 0,
+        "birth_date": "2001-06-16",
+        "phone": "54512274"
+    }
+},
+{
+    "model": "usuarios.profesor",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "nombre": "David",
+        "apellido": "Rodas",
+        "dpi": "3711111370101",
+        "password": "Lobodefuego01",
+        "password_confirmation": "1"
+    }
+},
+{
+    "model": "usuarios.profesor",
+    "pk": 2,
+    "fields": {
+        "user": 16,
+        "nombre": "David",
+        "apellido": "Steven",
+        "dpi": "3711112370101",
+        "password": "",
+        "password_confirmation": ""
+    }
+},
+{
+    "model": "axes.accessattempt",
+    "pk": 4,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T21:09:20.819Z",
+        "get_data": "next=/admin/\n---------\nnext=/admin/\n---------\nnext=/admin/",
+        "post_data": "csrfmiddlewaretoken=4VwBBgL4K82l3Se3HMjCPX8p0sQGdJPGFZ61W5oXNEt0clOusIaFM28hx0k1bgUg\nusername=********************\npassword=********************\n---------\ncsrfmiddlewaretoken=wCWWtrkCLF3TXhJNdK8oAayqyC82ias4UlAQ5aBoSMOHN4uWRhowYpe4eP43c0Cz\nusername=********************\npassword=********************\n---------\ncsrfmiddlewaretoken=A8hbx58MLUhHBfq1dEiACjUAlX3QYyi7bywWIxoAFMuftNLAfV9QjUDNKree6hhi\nusername=********************\npassword=********************",
+        "failures_since_start": 3
+    }
+},
+{
+    "model": "axes.accessattempt",
+    "pk": 6,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r017",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T17:41:31.597Z",
+        "get_data": "\n---------\n\n---------\n\n---------\n",
+        "post_data": "csrfmiddlewaretoken=pZcRCps3ZGqP81x7mv1SrpRjpGS2auNwbHlvKCJhwJxnm77UBlo76h8Pl1Qbb57y\nusername=********************\npassword=********************\n---------\ncsrfmiddlewaretoken=pxcss0ot91warxMEUQDjFNS2RCUutgE74G19WTFC5yYuLEElGAbxFDoUSWihpXpA\nusername=********************\npassword=********************\n---------\ncsrfmiddlewaretoken=1De20wHnvS1vFENMTXKOqjmnKMvuLPUmGM3JupYwrptPZLFtFHi2q9SfL6ThHwFP\nusername=********************\npassword=********************\n---------\ncsrfmiddlewaretoken=dAZc1v6cgB972JRclY2w2n04gFxrfWc7SJOTvonlc8BrmQJT7IAK2dwWhZVebDXA\nusername=********************\npassword=********************",
+        "failures_since_start": 4
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 1,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-21T05:49:02.884Z",
+        "logout_time": "2024-09-22T17:20:00.305Z",
+        "session_hash": "8f835716a9b446e5505a17f86fcbdcce29666f79bfcc3c5f48fddbd20c3fdfed"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 2,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-22T21:42:03.262Z",
+        "logout_time": "2024-09-22T21:42:29.826Z",
+        "session_hash": "8c0107af5370deaf2ec6964efb03853788a39b8362617ee84099b59811541a67"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 3,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-22T22:30:07.159Z",
+        "logout_time": "2024-09-22T22:30:52.086Z",
+        "session_hash": "e66d563824499fbef927188d295976a109e3b47d81ef1ca9eacc162195f920f3"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 4,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-22T23:13:10.116Z",
+        "logout_time": "2024-09-23T14:54:45.960Z",
+        "session_hash": "8c45d5828cfda0fe9a22431c61503678e26f0cf6f838b3e9bc158244eee4ed96"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 5,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-23T15:13:54.094Z",
+        "logout_time": null,
+        "session_hash": "99297eef1c52bf401365f8821611d568c1db5d2ae370e42c5023ff45d81294a7"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 6,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T15:35:02.526Z",
+        "logout_time": null,
+        "session_hash": "1a8a7ad09f41b4d4c1722ddb2dac5158e3a1447befa8d54ad32d59e6add3e97e"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 7,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T15:35:02.918Z",
+        "logout_time": "2024-09-23T15:38:52.440Z",
+        "session_hash": "733deb48213fdd955e119f3ec2d8d783b86cc95436f8d1a7b00ef8a2d507580b"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 8,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T15:39:15.476Z",
+        "logout_time": "2024-09-23T15:55:34.331Z",
+        "session_hash": "41c82d2d0372fee22fa85ffaff6507c9897909cfba2702576f44e892cfc3cd14"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 9,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T15:57:24.872Z",
+        "logout_time": "2024-09-23T16:02:17.629Z",
+        "session_hash": "2da16bef371be45805ae03b2f3a87ce2973ccb336b61fbba325c38e18c33e17e"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 10,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T16:04:54.616Z",
+        "logout_time": "2024-09-23T16:07:28.694Z",
+        "session_hash": "54c7ccf561c177212294da711ce9912ee674f082576b07a74c8c565b085d3852"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 11,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr-016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-23T16:07:47.231Z",
+        "logout_time": "2024-09-23T16:21:42.524Z",
+        "session_hash": "0a15be4e9a69f6b004645f089b74774b326f31c5572b12400e74b4f6aa9e5667"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 12,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T16:22:11.237Z",
+        "logout_time": "2024-09-23T16:29:45.162Z",
+        "session_hash": "667ef6ea4b22ee30440a15fb212af6bfddfdd3b494de8e3a33c8ee77bbfa73df"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 13,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T16:43:04.179Z",
+        "logout_time": "2024-09-23T16:43:25.504Z",
+        "session_hash": "f7900144d64e1abf724b269394333025042156f2f452a44d770d7b1f1cdcabb9"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 14,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T16:56:20.552Z",
+        "logout_time": "2024-09-23T16:57:08.815Z",
+        "session_hash": "127add8f9f5c05bc9ce67bd5c03a366dd853348e7f3c484261a11e61943dd0bd"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 15,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r017",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/",
+        "attempt_time": "2024-09-23T17:07:08.250Z",
+        "logout_time": "2024-09-23T17:07:18.260Z",
+        "session_hash": "781999a945f1c8b5987e3a9cb2f217ecd79f82c8ee06d11a05f7d31e2d6b2ae6"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 16,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T17:07:42.584Z",
+        "logout_time": "2024-09-23T17:08:12.522Z",
+        "session_hash": "05f6b35f0c0ee62fdd433b970c01676db91a3b958285015f738e929341e7b9f7"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 17,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/",
+        "attempt_time": "2024-09-23T17:09:07.187Z",
+        "logout_time": "2024-09-23T17:14:20.900Z",
+        "session_hash": "4c6e1eeb70347f03ca48c93dd94954eb2875699750a25d5d22cee3c69068644f"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 18,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-23T17:16:36.751Z",
+        "logout_time": "2024-09-23T17:24:49.314Z",
+        "session_hash": "e6d6572735c7e9421a0a092bb79494f82a0dd5b72ef4a87fd5e6275c6ade1ddb"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 19,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-23T17:25:05.749Z",
+        "logout_time": null,
+        "session_hash": "8221b2ad30bde1b43e1b661d9f59cf56a52f240a1a68966b152e5ef0c2003836"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 20,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T14:51:23.482Z",
+        "logout_time": "2024-09-24T16:51:55.753Z",
+        "session_hash": "6f5f7504f67deeb5e76da8afa1361e03e09bac02d45f2178cbd26fcf939e87a7"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 21,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T16:52:15.330Z",
+        "logout_time": null,
+        "session_hash": "13fe5d8f9c0c8a5f27e5d91d28b4219923839d3e54036e4a09be591a272acafc"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 22,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T17:39:13.780Z",
+        "logout_time": "2024-09-24T17:41:20.481Z",
+        "session_hash": "4c59d36296fadbcec5751a5f618536d499f4127b2b4b38a0e877c9f3b5db292f"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 23,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T17:41:40.444Z",
+        "logout_time": null,
+        "session_hash": "1d9b9af16e332957d158e5cdf49e7c06f3c0796c0cce117dd381adb5aa30cef2"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 24,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T17:41:59.059Z",
+        "logout_time": "2024-09-24T17:42:29.354Z",
+        "session_hash": "10ab8e0932dd80a29bb744d196b7a7c9f97cfed80dc51bc3a09024781968ba31"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 25,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T17:42:41.854Z",
+        "logout_time": null,
+        "session_hash": "fea99320a001aa68a1043ebc797f637eb949bbed5af04dae3afb210e82b07fce"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 26,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T17:42:55.443Z",
+        "logout_time": "2024-09-24T17:43:03.436Z",
+        "session_hash": "85032be4a3ea352b43adeea11416d809061f1f38ee9d1fe8f964881e58ab374b"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 27,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T18:25:49.515Z",
+        "logout_time": "2024-09-24T18:49:49.761Z",
+        "session_hash": "ecec37b9651126da60b9ceaeeb22ef914d0637b6d0a6b94b1261710d324bca88"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 28,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T18:55:33.887Z",
+        "logout_time": null,
+        "session_hash": "6696146710bbad389b8b0491be97cbb2e827bb835d5d12d92a24a211e337d37c"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 29,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T20:46:58.879Z",
+        "logout_time": "2024-09-24T20:56:04.887Z",
+        "session_hash": "04da067c02dcd709a513500a6e4036b5950fa772fb29f7b6840076765b1edadb"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 30,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r016",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-09-24T20:56:14.874Z",
+        "logout_time": "2024-09-24T21:09:05.523Z",
+        "session_hash": "4ae9e8d0dd90ccc3c763e348167504d279830b42d04b595318ffeb090ed6e3d0"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 31,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T21:09:27.083Z",
+        "logout_time": "2024-09-24T21:10:19.715Z",
+        "session_hash": "cefb7618d31a8cbcf3311f8eaabeac0b7adac0d5c8c5d9edc339bba7242b2765"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 32,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-24T21:12:16.886Z",
+        "logout_time": "2024-09-24T21:12:34.869Z",
+        "session_hash": "393f90b859050155bd92c2161cf1447177ff461b2b4085c405110cdb28c701f1"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 33,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/",
+        "attempt_time": "2024-09-24T21:13:14.731Z",
+        "logout_time": null,
+        "session_hash": "1eff5d1c63a4791b6252b7fed079b134636e5e2cade69a31fb5a03ac63b67b69"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 34,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-09-25T16:50:06.477Z",
+        "logout_time": "2024-09-25T16:50:43.797Z",
+        "session_hash": "b0ffb47e8616ba9409de06e13372a6fb5850a3a6bccba0b0953366ab3de64306"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 35,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/",
+        "attempt_time": "2024-09-25T16:51:41.169Z",
+        "logout_time": null,
+        "session_hash": "0dd09ded9a3af44e80c031af9e6c172ce778a25266225b9d4cb8cf33bb7a59c3"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 36,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-02T04:10:59.435Z",
+        "logout_time": "2024-10-02T20:37:55.640Z",
+        "session_hash": "b9ef35f02f97f6d6356e8ddccdcf42221c264eeb7c2d744bdba1b9e57ceffcfc"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 37,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-02T20:38:07.993Z",
+        "logout_time": null,
+        "session_hash": "86c4adb007613440a2af5518eea94ec9e1046a509550d3e21cae5085d0609033"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 38,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-03T01:44:04.725Z",
+        "logout_time": "2024-10-03T01:54:03.354Z",
+        "session_hash": "7fb3c602afd95461cfb857bdc6235226908592b2633359e0c0e09664777d043a"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 39,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-05T19:19:37.582Z",
+        "logout_time": "2024-10-05T19:43:08.128Z",
+        "session_hash": "c445521edd23554040b6d9430669ddac2250bb0c0641829067d4aaba156750e2"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 40,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-05T19:43:12.654Z",
+        "logout_time": "2024-10-05T19:44:38.915Z",
+        "session_hash": "77351141fcf62389f732d2211761edecf82d92cae97344ddef918719d851a2ad"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 41,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-05T19:44:45.977Z",
+        "logout_time": "2024-10-05T19:45:29.962Z",
+        "session_hash": "6176b8c2c9d32834b7d70d7aefbceedeea0c40e47bc009a11aebde11287795f7"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 42,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-05T19:45:34.109Z",
+        "logout_time": null,
+        "session_hash": "fcdeb1b5b591518ba2bc1af733f8cf22e55fdd49ba92419c51a2db75e19bd353"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 43,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-05T19:48:48.609Z",
+        "logout_time": "2024-10-05T21:23:51.690Z",
+        "session_hash": "43eeaa45f43cd4b2beb1b1b54b7397b21bb2827514743bcc8fb863a16d2125fd"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 44,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-05T21:28:36.820Z",
+        "logout_time": "2024-10-05T23:13:36.740Z",
+        "session_hash": "b4a769498d1d6d20fd926604cb8741b5b4e5bcf30a9cc7dc547c28a7e14f3cf3"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 45,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dsteven",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-05T23:14:15.839Z",
+        "logout_time": "2024-10-05T23:54:52.037Z",
+        "session_hash": "13245935529097ea123a3a715379ab2a8d8a7ac7e7b76961cdf6753e3094fc46"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 46,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-05T23:55:01.754Z",
+        "logout_time": "2024-10-05T23:55:43.902Z",
+        "session_hash": "5ca4574e4e14c462d113b43fd8013f6ea8f86236b8a0e57bb4f71ae746df29ea"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 47,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvd-r",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-05T23:55:49.622Z",
+        "logout_time": "2024-10-05T23:56:24.848Z",
+        "session_hash": "fbb420270479b0f808ba3d9a5f54cde3c4aeb6f763b2e3953784987ef242351a"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 48,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dsteven",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-05T23:56:36.701Z",
+        "logout_time": null,
+        "session_hash": "9d767bc54ea5669aa280a225badbd0cdee9bc90c824132943bff95211154d4ea"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 49,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dvdr",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/admin/login/",
+        "attempt_time": "2024-10-06T00:25:06.261Z",
+        "logout_time": "2024-10-06T00:25:40.531Z",
+        "session_hash": "03ca144f2cc6ff4ffa436e4975fc0ff04425982bab7fd9f7f570ff20fc2b6c92"
+    }
+},
+{
+    "model": "axes.accesslog",
+    "pk": 50,
+    "fields": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
+        "ip_address": "127.0.0.1",
+        "username": "dsteven",
+        "http_accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "path_info": "/autenticacion/iniciar_sesion",
+        "attempt_time": "2024-10-06T00:26:00.038Z",
+        "logout_time": null,
+        "session_hash": "4ec23e786d48c8d39b4b66796d5ece3019b4168e00340e94080c528888bfa6f2"
+    }
+}
+]

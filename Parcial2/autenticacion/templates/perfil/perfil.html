@@ -1,0 +1,198 @@
+{% extends "stock/base.html" %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>{{ user.username.upper }}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <hr>
+
+    <!-- User Information Section -->
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-lg-6 mb-4 mb-lg-0">
+                    <div class="card mb-3" style="border-radius: .5rem; background-color: #000; color: #fff;">
+                        <div class="row g-0">
+                            <div class="col-md-4 gradient-custom text-center"
+                                 style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                {% if user.profile.profile_image %}
+                                    <img src="{{ user.profile.profile_image.url }}" alt="Avatar" class="img-fluid my-5" style="width: 140px;">
+                                {% else %}
+                                    <img src="/media/default-avatar.png" alt="Avatar" class="img-fluid my-5" style="width: 140px;">
+                                {% endif %}
+                                <h5>{{ user.username }}</h5>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h6>Información</h6>
+                                    <hr class="mt-0 mb-4" style="border-color: #ffffff;">
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Nombres</h6>
+                                            <p class="text-muted">{{ user.first_name }}</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Apellidos</h6>
+                                            <p class="text-muted">{{ user.last_name }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Email</h6>
+                                            <p class="text-muted">{{ user.email }}</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Teléfono</h6>
+                                            <p class="text-muted">{{ user.profile.phone|default:"No disponible" }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>DPI</h6>
+                                            <p class="text-muted">{{ user.profile.cui|default:"No disponible" }}</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Fecha de Nacimiento</h6>
+                                            <p class="text-muted">{{ user.profile.birth_date|default:"No disponible" }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Information Section -->
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-10">
+                    <h3 class="mb-4 text-center" style="color: black;">Reservas</h3>
+
+                    <!-- Recorremos las reservas y mostramos cada una en su propia tarjeta -->
+                    {% if reservas %}
+                    {% for reserva in reservas %}
+                        <div class="card mb-4 
+                            {% if reserva.producto.nombre == 'Orientación Nutricional' %}
+                                card-color-purple
+                            {% elif reserva.producto.nombre == 'Chequeo Cardiológico' %}
+                                card-color-orange
+                            {% elif reserva.producto.nombre == 'Chequeo Preescolar' %}
+                                card-color-pink
+                            {% elif reserva.producto.nombre == 'Vacunación' %}
+                                card-color-blue
+                            {% else %}
+                                card-color-default
+                            {% endif %}
+                            " style="border-radius: .5rem;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gradient-custom text-center"
+                                    style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                    {% if reserva.foto %}
+                                        <img src="{{ reserva.foto.url }}" alt="Bebé" class="img-fluid my-5" style="width: 140px;">
+                                    {% else %}
+                                        <img src="/media/default-baby.svg" alt="Bebé" class="img-fluid my-5" style="width: 140px;">
+                                    {% endif %}
+                                    <h5>{{ reserva.nombre_bebe }}</h5>
+                                    <!-- Botón de "Ver más información" debajo de la foto del bebé -->
+                                    <a href="{% url 'curso_page' reserva.id %}" class="btn btn-black mt-3">Ver más información</a>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body p-4">
+                                        <h6>Detalles de la Reserva</h6>
+                                        <hr class="mt-0 mb-4">
+                                        <div class="row pt-1">
+                                            <div class="col-6 mb-3">
+                                                <h6>Nombre del Bebé</h6>
+                                                <p style="color: #000;">{{ reserva.nombre_bebe }}</p>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <h6>Fecha de Nacimiento</h6>
+                                                <p style="color: #000;">{{ reserva.fecha_nacimiento }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-1">
+                                            <div class="col-6 mb-3">
+                                                <h6>Fecha de Reserva</h6>
+                                                <p style="color: #000;">{{ reserva.fecha_reserva }}</p>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <h6>Hora de Reserva</h6>
+                                                <p style="color: #000;">{{ reserva.hora_reserva }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-1">
+                                            <div class="col-6 mb-3">
+                                                <h6>Datos Adicionales</h6>
+                                                <p style="color: #000;">{{ reserva.datos_adicionales|default:"No disponible" }}</p>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <h6>Consulta</h6>
+                                                <p  style="color: #000;">{{ reserva.producto.nombre }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    {% else %}
+                    <div class="alert alert-warning text-center">
+                        No hay reservas disponibles para mostrar.
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Definir clases para los colores personalizados */
+        .card-color-blue {
+            background-color: #70d6ff; 
+        }
+    
+        .card-color-pink {
+            background-color: #ff70a6;
+        }
+    
+        .card-color-orange {
+            background-color: #ff9770;
+        }
+    
+        .card-color-purple {
+            background-color: #cb6ce6; 
+        }
+    
+        .card-color-default {
+            background-color: #ffffff; /* Color negro por defecto */
+        }
+
+        .btn-black {
+        background-color: #ffffff;
+        color: #000000;
+        border: none; /* Para eliminar bordes predeterminados */
+
+        }
+        .btn-black:hover {
+            background-color: #333; /* Un color ligeramente más claro al hacer hover */
+        }
+    </style>
+
+{% endblock %}

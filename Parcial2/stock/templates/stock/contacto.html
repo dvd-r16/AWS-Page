@@ -1,0 +1,81 @@
+{% extends "stock/base.html" %}
+{% load static %}
+{% block content %}
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1 style="color:rgb(0, 0, 0);">Contacto</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="{% url 'Home' %}" style="color:rgb(0, 0, 0);">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="{% url 'Contacto' %}" style="color:rgb(0, 0, 0);">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <hr>
+
+    <!--================Contact Area =================-->
+    <section class="contact_area section_gap_bottom">
+        <div class="container" style="background-color: #ffffff;">
+            <div class="row justify-content-center">
+                <div class="contact_info">
+                    <!-- Nuevo apartado del horario de atención -->
+                    <div class="info_item">
+                        <i class="lnr lnr-clock" style="color:rgb(0, 0, 0);"></i>
+                        <h6 style="color: rgb(0, 0, 0);">Horario de Atención</h6>
+                        <p style="color: #555555;">Lunes a Viernes: 15:00 - 18:30 Horas<br>Sábado: 09:00 - 13:00 Horas</p>
+                    </div>
+                    <!-- Fin del horario de atención -->
+
+                    <div class="info_item">
+                        <i class="lnr lnr-home" style="color:rgb(0, 0, 0);"></i>
+                        <h6 style="color: rgb(0, 0, 0);">Ciudad de Guatemala</h6>
+                        <p style="color: #555555;">3 Calle 9-80, Centro Comercial Plaza Médica, Local 19, Ciudad San Cristobal, Zona 8 de Mixco</p>
+                    </div>
+
+                    <!-- Aquí colocamos el mapa -->
+                    <div class="info_item" style="z-index: 0; position: relative;">
+                        <div id="map" style="height: 400px; width: 100%; background-color: #fff;"></div>
+                    </div>
+                    <!-- Fin del mapa -->
+
+                    <div class="info_item">
+                        <i class="lnr lnr-phone-handset" style="color:rgb(0, 0, 0);"></i>
+                        <h6 style="color: rgb(0, 0, 0);">(502) 2480-8679<br>(502) 2480-8680</h6>
+                        <p style="color: #555555;">Horario de Atención Telefónica: 8:00 - 19:00 Hrs</p>
+                    </div>
+                    <div class="info_item">
+                        <i class="lnr lnr-envelope" style="color:rgb(0, 0, 0);"></i>
+                        <h6 style="color: rgb(0, 0, 0);">info@drablandinanutriologa.com</h6>
+                        <p style="color: #555555;">Disponible las 24h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Contact Area =================-->
+    <hr>
+
+    <!-- Leaflet.js y script para el mapa -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Inicializar el mapa y establecer la vista en las nuevas coordenadas
+        const map = L.map('map').setView([14.608145848278175, -90.58825434784433], 15);
+
+        // Añadir la capa de OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Añadir un marcador en la nueva ubicación
+        const marker = L.marker([14.608145848278175, -90.58825434784433]).addTo(map);
+
+        // Añadir un popup al marcador con la nueva información
+        marker.bindPopup("<b>Plaza Médica, Local 19</b><br>Ciudad San Cristobal, Mixco").openPopup();
+    </script>
+{% endblock %}
