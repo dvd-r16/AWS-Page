@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-wqk%(e0g0=h^20g^(n$ay&0ry$iv+q6eprq*2dzxyl0p61!n03
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.172.83.94', 'localhost']
+ALLOWED_HOSTS = ['54.224.99.121', 'localhost']
 
 #STATICFILES_DIRS = ['D:/ウサク/2022/Segundo Semestre/Proyectos de computación/Proyecto/Proyecto Final/ProyectoFinal/Templates/static']
 
