@@ -29,6 +29,10 @@ SECRET_KEY = 'django-insecure-wqk%(e0g0=h^20g^(n$ay&0ry$iv+q6eprq*2dzxyl0p61!n03
 DEBUG = True
 
 ALLOWED_HOSTS = ['54.224.99.121', 'localhost', 'clinicaserver-1939774371.us-east-1.elb.amazonaws.com', 'sonrisasdelavida.click']
+CSRF_TRUSTED_ORIGINS = [
+    'https://sonrisasdelavida.click',
+    'http://sonrisasdelavida.click'
+]
 
 #STATICFILES_DIRS = ['D:/ウサク/2022/Segundo Semestre/Proyectos de computación/Proyecto/Proyecto Final/ProyectoFinal/Templates/static']
 
