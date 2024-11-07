@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wqk%(e0g0=h^20g^(n$ay&0ry$iv+q6eprq*2dzxyl0p61!n03'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['54.224.99.121', 'localhost', 'clinicaserver-1939774371.us-east-1.elb.amazonaws.com', 'sonrisasdelavida.click']
 CSRF_TRUSTED_ORIGINS = [
