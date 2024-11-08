@@ -8,7 +8,7 @@
 /* Section Gaps css
 ============================================================================================ */
 .Bodyss{
-  background-color: #b1b1b1;
+  background-color: #ffffff;
 }
 
 .no-padding {
@@ -76,7 +76,6 @@
   background: -webkit-linear-gradient(90deg, #10a1ea 0%, #74bdc0 100%);
   background: -moz-linear-gradient(90deg, #10a1ea 0%, #74bdc0 100%);
   background: -o-linear-gradient(90deg, #10a1ea 0%, #74bdc0 100%);
-  background: linear-gradient(90deg, #10a1ea 0%, #74bdc0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -1052,14 +1051,14 @@ h1, h2, h3, h4, h5, h6 {
         display: inline-block;
         font-size: 17px;
         font-weight: 500;
-        color: #222222; }
+        color: #ffffff; }
         @media (min-width: 991px) {
           .header_area .navbar .nav .nav-item .nav-link {
             padding: 10px 0; } }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #133c6b; }
+        color: #adebbe; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -1068,11 +1067,11 @@ h1, h2, h3, h4, h5, h6 {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #132842; }
+          background: #414d76; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
-              top: 140%;
+              top: 80%;
               left: 0px;
               min-width: 200px;
               text-align: left;
@@ -1112,7 +1111,7 @@ h1, h2, h3, h4, h5, h6 {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item.active {
               background: #133c6b; }
               .header_area .navbar .nav .nav-item.submenu ul .nav-item.active .nav-link {
-                color: #133c6b; }
+                color: #2f3856; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
               padding: 0px 30px;
@@ -1125,7 +1124,7 @@ h1, h2, h3, h4, h5, h6 {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #133c6b; /* Cambio de color cuando pones el mouse sobre las opciones */
+              background: #2f3856; /* Cambio de color cuando pones el mouse sobre las opciones */
 
               color: #b7ecda; }
         @media (min-width: 992px) {
@@ -1214,15 +1213,15 @@ h1, h2, h3, h4, h5, h6 {
 /* banner area css
 ============================================================================================ */
 .banner-area .banner-content1{
-  background: url(../img/banner/common-banner4.svg) center no-repeat;
+  background: url(../img/banner/bannera.svg) center no-repeat;
 }
 .banner-area .banner-content2{
-  background: url(../img/banner/common-banner4.svg) center no-repeat;
+  background: url(../img/banner/bannera.svg) center no-repeat;
 }
 
 
 .banner-area {
-  background: url(../img/banner/common-banner4.svg) center no-repeat;
+  background: url(../img/banner/bannera.svg) center no-repeat;
   background-size: cover;
   /*color:#ccc;*/
   position: relative; 
@@ -1257,7 +1256,7 @@ h1, h2, h3, h4, h5, h6 {
 
       /* Estilos individuales para cada banner */
       .banner-img1 {
-        background-image: url(../img/banner/c.svg);
+        background-image: url(../img/banner/w.svg);
         background-size: cover; /* Para que la imagen cubra todo el espacio */
         background-position: center;
         width: 1140px; /* Ajusta el ancho al tamaño deseado */
@@ -1266,7 +1265,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .banner-img2 {
-        background-image: url(../img/banner/b.svg);
+        background-image: url(../img/banner/x.svg);
         background-size: cover; /* Para que la imagen cubra todo el espacio */
         background-position: center;
         width: 1140px; /* Ajusta el ancho al tamaño deseado */
@@ -1275,7 +1274,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .banner-img3 {
-        background-image: url(../img/banner/a.svg);
+        background-image: url(../img/banner/y.svg);
         background-size: cover; /* Para que la imagen cubra todo el espacio */
         background-position: center;
         width: 1140px; /* Ajusta el ancho al tamaño deseado */
@@ -1284,7 +1283,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .banner-img4 {
-        background-image: url(../img/banner/d.svg);
+        background-image: url(../img/banner/z.svg);
         background-size: cover; /* Para que la imagen cubra todo el espacio */
         background-position: center;
         width: 1140px; /* Ajusta el ancho al tamaño deseado */
@@ -5780,7 +5779,7 @@ label {
 ============================================================================================ */
 .footer-area {
   padding-top: 100px;
-  background-color: #222222; }
+  background-color: #b3b3b3; }
   .footer-area h6 {
     color: #fff;
     margin-bottom: 25px;
@@ -5792,7 +5791,7 @@ label {
 
 .copy-right-text i,
 .copy-right-text a {
-  color: #ffba00; }
+  color: #000000; }
 
 .instafeed {
   margin: -5px; }
