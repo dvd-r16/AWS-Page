@@ -11,7 +11,14 @@ from inventario.models import articulos
 class CustomUserCreationForm(UserCreationForm):
     first_name = forms.CharField(label='Nombre', max_length=150, help_text='Requerido. Introduzca su nombre.')
     last_name = forms.CharField(label='Apellido', max_length=150, help_text='Requerido. Introduzca su apellido.')
-    cui = forms.IntegerField(label='DPI', help_text='Código Único de Identificación (DPI)')
+    cui = forms.RegexField(
+        label='DPI', 
+        regex=r'^\d{1,13}$',  # Acepta solo números de hasta 13 dígitos
+        error_messages={
+            'invalid': 'El DPI debe contener solo números y un máximo de 13 dígitos.',
+        },
+        help_text='Código Único de Identificación (DPI)'
+    )
     birth_date = forms.DateField(label='Fecha de nacimiento', widget=forms.TextInput(attrs={'type': 'date'}), help_text='Formato: YYYY-MM-DD')
     phone = forms.CharField(label='Teléfono', max_length=20, help_text='Número de teléfono de contacto.')
     email = forms.EmailField(label='Correo electrónico', help_text='Dirección de correo electrónico.')

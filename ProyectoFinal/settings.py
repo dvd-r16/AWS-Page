@@ -26,9 +26,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wqk%(e0g0=h^20g^(n$ay&0ry$iv+q6eprq*2dzxyl0p61!n03'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['54.224.99.121', 'localhost', 'clinicaserver-1939774371.us-east-1.elb.amazonaws.com', 'sonrisasdelavida.click']
+CSRF_TRUSTED_ORIGINS = [
+    'https://sonrisasdelavida.click',
+    'http://sonrisasdelavida.click'
+]
 
 #STATICFILES_DIRS = ['D:/ウサク/2022/Segundo Semestre/Proyectos de computación/Proyecto/Proyecto Final/ProyectoFinal/Templates/static']
 
@@ -132,8 +136,8 @@ DATABASES = {
         'NAME': 'pediatra',
         'USER': 'postgres',
         'PASSWORD': '202010039',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'HOST': 'localhost',
+        'PORT': '',
 
     }
 }
@@ -174,8 +178,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR /'staticfiles'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'stock/static/stock'),
+]
+
+#STATIC_URL = 'static/'
+#STATIC_ROOT = BASE_DIR /'staticfiles'
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
